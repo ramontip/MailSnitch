@@ -1,5 +1,5 @@
 <div>
-  <h2>MailSnitch 📬</h2>
+  <h1>MailSnitch 📬</h1>
   <p>
     This is a simple web tool that sends you an email if websites contain or do not contain certain phrases.
     You can use it for example to check if your favorite sneaker is available for purchase on specific online shops.
@@ -8,12 +8,12 @@
     <a href="#Installation">Installation</a>
     ·
     <a href="#Cronjob">Cronjob</a>
-    .
+    ·
     <a href="#License">License</a>
   </p>
 </div>
 
-### Installation
+## Installation
 
 1. Clone the repo
    ```sh
@@ -75,7 +75,7 @@ Please check the source code of the website before and make sure that your phras
 5. Set the document root to `/public`
 
 
-### Cronjob
+## Cronjob
 
 You may create a cronjob to run the action of your choice automatically. 
 
