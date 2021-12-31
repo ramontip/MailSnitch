@@ -14,12 +14,6 @@ if (file_exists(realpath(dirname(__FILE__)) . '/config.php')) {
  */
 function getUrlContent($url, $user_agent_lang): string {
     $content = '';
-    
-    // Check if url is valid
-    $headers = @get_headers($url);
-    if($headers === FALSE || strpos($headers[0], '200') === FALSE) {
-        return $content;
-    }
 
     // Randomly select user agent
     $user_agents = [
